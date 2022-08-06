@@ -71,8 +71,10 @@ namespace Arreglos
                 int edad = 0;
                 Console.WriteLine("Digite su edad ");
                 edad = Convert.ToInt32(Console.ReadLine());
-
-                if (edad < 18)
+                if (edad==0)
+                {
+                    Console.WriteLine("Error");
+                }else if (edad < 18)
                 {
                     Console.WriteLine("Usted es menor de edad");
                 }

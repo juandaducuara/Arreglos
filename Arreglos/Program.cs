@@ -13,6 +13,7 @@ namespace Arreglos
         public static void Main(string[] args)
         {
             metodos metodo = new metodos();
+            Clases clasess = new Clases();
             string punto = "";
             do
             {
@@ -42,6 +43,9 @@ namespace Arreglos
                         break;
                     case "7":
                         metodo.cuartoMetodo();
+                        break;
+                    case "8":
+                        clasess.Tirar();
                         break;
                     case "0":
                         Console.WriteLine("Saliendo del programa");
